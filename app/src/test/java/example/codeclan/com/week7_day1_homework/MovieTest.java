@@ -32,4 +32,11 @@ public class MovieTest {
         assertEquals("Comedy", movie.getGenre());
     }
 
+    @Test
+    public void testSetRanking(){
+        Movie movie = new Movie("Die Hard", "Action", 1);
+        movie.setRanking(5);
+        assertEquals(5, movie.getRanking());
+    }
+
 }
