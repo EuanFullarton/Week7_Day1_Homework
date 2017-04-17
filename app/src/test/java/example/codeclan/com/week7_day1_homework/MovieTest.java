@@ -40,13 +40,13 @@ public class MovieTest {
 
     @Test
     public void testSetRanking() {
-        movie.setRanking(5);
-        assertEquals(5, movie.getRanking());
+        movie.setRanking(3);
+        assertEquals(3, movie.getRanking());
     }
 
     @Test
     public void testPrintMovieDetails() {
-        assertEquals("Title: 'Die Hard', Genre: 'Action', Ranking: 1", movie.printMovieDetails();)
+        assertEquals("Title: Die Hard, Genre: Action, Ranking: 1", movie.toString());
     }
 
 }

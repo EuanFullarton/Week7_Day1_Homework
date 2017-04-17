@@ -20,12 +20,11 @@ public class Movie {
         return title;
     }
 
-
     public String getGenre() {
         return genre;
     }
 
-    public int getRanking() {
+    public int getRanking(){
         return ranking;
     }
 
@@ -37,7 +36,13 @@ public class Movie {
         this.genre = newGenre;
     }
 
-    public void setRanking(int newRanking) {
-        this.ranking = newRanking;
+    public void setRanking(int ranking) {
+        this.ranking = ranking;
     }
+
+    public String toString() {
+        return ("Title: " + title + ", " + "Genre: " + genre + ", " + "Ranking: " + ranking);
+    }
+
+
 }
