@@ -21,7 +21,7 @@ public class MovieTest {
     @Test
     public void testSetTitle(){
         Movie movie = new Movie("Die Hard", "Action", 1);
-        movie.setTitle();
+        movie.setTitle("Lethal Weapon");
         assertEquals("Lethal Weapon", movie.getTitle());
     }
 

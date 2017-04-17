@@ -28,4 +28,8 @@ public class Movie {
     public int getRanking() {
         return ranking;
     }
+
+    public void setTitle(String newTitle) {
+        this.title = newTitle;
+    }
 }
