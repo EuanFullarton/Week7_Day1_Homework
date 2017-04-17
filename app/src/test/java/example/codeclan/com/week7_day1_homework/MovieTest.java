@@ -25,4 +25,11 @@ public class MovieTest {
         assertEquals("Lethal Weapon", movie.getTitle());
     }
 
+    @Test
+    public void testSetGenre(){
+        Movie movie = new Movie("Die Hard", "Action", 1);
+        movie.setGenre("Comedy");
+        assertEquals("Comedy", movie.getGenre());
+    }
+
 }
